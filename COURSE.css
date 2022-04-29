@@ -1,0 +1,71 @@
+body {
+	background-image: url('redd.jpg');
+	margin-left: 2rem;
+	}
+
+h1, h2, h3 {
+	background-color:black;
+	color:white;
+	font-family: "Tahoma", times , Serif;
+}
+
+main {
+	background-color:#D9D9D9;
+	color:black;
+	font-family: "Tahoma";
+	margin: 10px;
+	}
+
+p {
+	background-color:#D9D9D9;
+	color:black;
+	font-family: "Tahoma";
+	margin: 20px;
+	}
+
+form {
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color:#D9D9D9; 
+	color:black;
+	font-family: "Tahoma";
+	margin-left: 2rem;
+	}
+
+#finished {
+	background-color: red;
+	padding: 20px;
+	margin: 20px;
+	
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  width: 400px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Tahoma";
+}
+
+
+
+li {
+  float: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: white
+}
